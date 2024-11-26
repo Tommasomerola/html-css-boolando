@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    background-color: rgb(255, 145, 0);
+    height: 50px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box{
+    height: 250px;
+    width: 30%;
+    background-color: gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#footer{
+    background-color: black;
+    height: 50px;
+}
