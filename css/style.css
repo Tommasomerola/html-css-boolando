@@ -4,10 +4,14 @@
     box-sizing: border-box;
 }
 
+/* regole header */
+
 #header{
     background-color: rgb(255, 145, 0);
     height: 50px;
 }
+
+/* regole main */
 
 main{
     display: flex;
@@ -16,10 +20,15 @@ main{
     align-items: center;
 }
 
+/* conteiner foto e didascalia */
+
 .box{
+
+    /* DEBUG */
 
     /* height: 250px;  */
     /* background-color: gray; */
+
     width: 30%;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -28,6 +37,8 @@ main{
 .box img{
     max-width: 100%;  
 }
+
+/* regole didasclia */
 
 .marca{
     font-size: 14px;
@@ -47,6 +58,8 @@ main{
 .cancellato{
     text-decoration: line-through;
 }
+
+/*regole footer */
 
 #footer{
     background-color: black;
