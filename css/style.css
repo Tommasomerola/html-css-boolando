@@ -17,14 +17,38 @@ main{
 }
 
 .box{
-    height: 250px;
+
+    /* height: 250px;  */
+    /* background-color: gray; */
     width: 30%;
-    background-color: gray;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
+.box img{
+    max-width: 100%;  
+}
+
+.marca{
+    font-size: 14px;
+    
+}
+
+.descrizione{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.offerta{
+    color: red;
+    font-weight: bold;
+}
+
+.cancellato{
+    text-decoration: line-through;
+}
+
 #footer{
     background-color: black;
-    height: 50px;
+    
 }
