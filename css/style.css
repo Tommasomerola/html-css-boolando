@@ -6,16 +6,61 @@
 
 /* regole header */
 
-#header{
-    
+header{
+    position: sticky;
     background-color: rgb(255, 145, 0);
-    height: 100px;
-    position: fixed;
+    min-height: 50px;
     top: 0;
-    left: 0;
-    z-index: 900;
-    width: 100%; 
+    z-index: 900; 
     
+}
+.conteiner-head{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* lista per reparti */
+
+li{
+    list-style: none;
+    padding-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* classe flex per allineare */
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50px;
+}
+
+#reparti{
+    display: flex;
+    color: #fff;
+}
+
+.reparti>li{
+padding-right: 10PX;
+}
+
+.reparti:hover{
+    color: blue;
+}
+
+/* logo */
+ 
+#logo img{
+   max-height: 30px;
+}
+
+.area-personale{
+    padding-left: 10px;
 }
 
 /* regole main */
@@ -25,7 +70,7 @@ main{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    margin-top: 10%;
+    
 }
 
 /* conteiner foto e didascalia */
