@@ -9,6 +9,12 @@
 #header{
     background-color: rgb(255, 145, 0);
     height: 50px;
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 900;
+    width: 100%; */
+    
 }
 
 /* regole main */
@@ -74,7 +80,16 @@ main{
     background-color: green;
     z-index: 10;
     color: #fff;
+}
 
+.cuore{
+    padding: 5px 15px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    background-color: black;
+    z-index: 10;
+    color: #fff;
 }
 
 /* regole didasclia */
