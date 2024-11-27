@@ -183,8 +183,36 @@ main{
 
 /*regole footer */
 
-#footer{
+footer{
     background-color: black;
-    height: 100px;
-    
+    min-height: 80px;
+    color: #fff;
+}
+
+#conteiner-footer{
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80px;
+}
+
+#azienza{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.informativa{
+    display: flex;
+    font-size: 15px;
+}
+
+.social{
+    margin-top: 5px;
+    padding:0 2px;
+    text-align: center;
 }
