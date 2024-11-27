@@ -33,10 +33,48 @@ main{
     width: 30%;
     margin-top: 20px;
     margin-bottom: 20px;
+    
 }
 
 .box img{
     max-width: 100%;  
+}
+
+.conteiner{
+    position: relative;
+}
+
+
+.discount{
+    padding: 5px;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    background-color: red;
+    z-index: 10;
+    color: #fff;
+   
+}
+
+.box-verde{
+    padding: 5px;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    background-color: green;
+    z-index: 10;
+    color: #fff;
+}
+
+.box-verde2{
+    padding: 5px;
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    background-color: green;
+    z-index: 10;
+    color: #fff;
+
 }
 
 /* regole didasclia */
